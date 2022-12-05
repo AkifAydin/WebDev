@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(100, 100, 100);
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;            
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: green;
+    padding: 20px; 
+}
+
+
+
+/*this section is targeting the standard sections + the class feature-box*/
+section, .feature-box{
+    background-color: blue;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+/*this section is targeting the class feature-box and its class topics*/
+.feature-box.topics{
+    
+    color: aqua;
+}
+
+/*this section is targeting the class feature-box and its class description*/
+.feature-box.description{
+    color: purple;
+}
+
+
+div {
+    background-color: black;
+    width: 100px;
+    margin: 5px;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display:inline-block;
+    background-color: yellowgreen;
+    border-radius: 3px;
+    padding: 2px;
+    margin-left: 20px;
+}
+
+li:hover {
+    background-color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*Call Methods on target*/
+li:first-child {
+    margin-left: 0;
+}
+
+footer {
+    background-color: rgb(95, 12, 12);
+    padding: 10px 20px;
+}
+
+h1 {
+    padding: 2px 20px;
+}
