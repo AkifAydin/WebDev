@@ -11,7 +11,7 @@ header {
     padding: 20px; 
 }
 
-section {
+section{
     background-color: blue;
     padding: 20px;
     display: flex;
@@ -22,7 +22,7 @@ section {
 div {
     background-color: black;
     width: 100px;
-    margin: auto;
+    margin: 5px;
 }
 
 ul {
@@ -33,7 +33,22 @@ ul {
 
 li {
     display:inline-block;
-    margin-right: 0 20px 0 0;
+    background-color: yellowgreen;
+    border-radius: 3px;
+    padding: 2px;
+    margin-left: 20px;
+}
+
+li:hover {
+    background-color: red;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 footer {
