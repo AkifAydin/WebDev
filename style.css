@@ -1,22 +1,22 @@
-body{
+body {
     background-color: rgb(100, 100, 100);
     color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif;            
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 header {
     background-color: green;
-    padding: 20px; 
+    padding: 20px;
 }
 
-section{
+section {
     background-color: blue;
     padding: 20px;
     display: flex;
     flex-direction: row;
-    
+
 }
 
 div {
@@ -32,7 +32,7 @@ ul {
 }
 
 li {
-    display:inline-block;
+    display: inline-block;
     background-color: yellowgreen;
     border-radius: 3px;
     padding: 2px;
@@ -43,7 +43,7 @@ li:hover {
     background-color: red;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
