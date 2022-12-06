@@ -7,15 +7,41 @@ body {
 }
 
 header {
-    background-color: green;
+    background-color: black;
+    background-image: url("images/ghibli.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 400px;
     padding: 20px;
 }
 
+header a {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 40px;
+    
+}
 
+header .Logo a {
+    background-image: url("images/AA.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+
+    width: 80px;
+    height: 80px;
+    top: -30;
+
+    /*  this is for disabled people to be able to hear logos with screen reader*/
+    text-indent: -99999999px;
+}
 
 /*this section is targeting the standard sections + the class feature-box*/
-section,
-.feature-box {
+section {
     background-color: blue;
     padding: 20px;
     display: flex;
@@ -49,14 +75,13 @@ ul {
 
 li {
     display: inline-block;
-    background-color: yellowgreen;
     border-radius: 3px;
-    padding: 2px;
-    margin-left: 20px;
+    padding: 3px;
+    margin-left: 45px;
 }
 
-li:hover {
-    background-color: red;
+.button:hover {
+    background-color: white;
 }
 
 a {
@@ -67,10 +92,10 @@ a:hover {
     text-decoration: underline;
 }
 
-/*Call Methods on target*/
+/*Call Methods on target
 li:first-child {
     margin-left: 0;
-}
+} */
 
 footer {
     background-color: rgb(95, 12, 12);
