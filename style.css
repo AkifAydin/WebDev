@@ -6,8 +6,7 @@ body {
     padding: 0;
 }
 
-
-
+/* HEADERS HERE*/
 header {
     background-color: black;
     background-image: url("images/ghibli.jpg");
@@ -41,27 +40,13 @@ header .Logo a {
     text-indent: -99999999px;
 }
 
-section {
-    background-color: blue;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-
-}
-
-div {
-    background-color: black;
-    width: 100px;
-    margin: 5px;
-}
-
-ul {
+nav ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
 
-li {
+nav ul li {
     display: inline-block;
     border-radius: 3px;
     padding: 3px;
@@ -80,9 +65,35 @@ a:hover {
     text-decoration: underline;
 }
 
+/* ITEMS HERE */
+section.Items {
+    background-color: darkolivegreen;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.items figure {
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.items figure img {
+    border: 5px solid rgb(0, 255, 13);
+    border-radius: 50%;
+    width: 200px;
+    box-shadow: white 0px 0px 10px;
+}
+
+/* FOOTER HERE */
 footer {
+    color: gray;
     background-color: rgb(95, 12, 12);
-    padding: 10px 20px;
+    font-size: 12px;
+    padding: 20px 20px;
+    text-align: center;
 }
 
 h1 {
