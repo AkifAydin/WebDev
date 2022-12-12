@@ -2,20 +2,26 @@ body {
     background-color: rgb(100, 100, 100);
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
+    /*font-size: 5vw;*/
     margin: 0;
     padding: 0;
 }
 
 /* HEADERS HERE*/
 header {
-    background-color: black;
+    background-color: wheat;
     background-image: url("images/ghibli.jpg");
-    background-size: 100%;
+    background-size: cover; /* perect to make it responsive for mobile etc*/
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
-    height: 400px;
+    height: 200px;
     padding: 20px;
+    
+}
+.button {
+    background-color: goldenrod;
+    padding: 3;
 }
 
 header a {
@@ -40,6 +46,11 @@ header .Logo a {
     text-indent: -99999999px;
 }
 
+header .mobile {
+    display: none;
+}
+
+
 nav ul {
     margin: 0;
     padding: 0;
@@ -49,9 +60,21 @@ nav ul {
 nav ul li {
     display: inline-block;
     border-radius: 3px;
-    padding: 3px;
+
     margin-left: 45px;
 }
+
+/* Responsive Rules */
+@media screen and (max-width: 699px) {
+    header .mobile {
+        display: inline-block;
+    }
+
+    header .desktop {
+        display: none;
+    }
+}
+
 
 .button:hover {
     background-color: white;
@@ -81,9 +104,9 @@ section.Items {
 }
 
 .items figure img {
-    border: 5px solid rgb(0, 255, 13);
+    border: 3px solid rgb(0, 255, 13);
     border-radius: 50%;
-    width: 200px;
+    width: auto;
     box-shadow: white 0px 0px 10px;
 }
 
@@ -96,6 +119,11 @@ footer {
     text-align: center;
 }
 
-h1 {
-    padding: 2px 20px;
+
+
+@media screen and (max-width: 400px) {
+    .Logo {
+        background-color: aliceblue;
+    }
+
 }
